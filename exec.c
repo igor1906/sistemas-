@@ -4,26 +4,20 @@
 
 int main(){
 
-	pid_t pid;
-	pid = fork();
+	pid_t pide;
+	pide = fork();
 
-	if(pid < 0){
-		
+	if(pide < 0){
 		printf ("3RR0R\n");
-
 	}
 
-	else if (pid == 0){
-
+	else if (pide == 0){
 		execlp ("ls", "ls", NULL);
-
 	}
-
 	else{
-
 		wait (NULL);
 		printf ("\t\tPrograma Executado\n");
-
 	}
 
+	
 }
