@@ -5,14 +5,14 @@
 
 int main (int argc, char *argv[]){
 
-	int a, b, s;
+	int x, y, soma;
 
-	a = atoi(argv[1]);
-	b = atoi(argv[2]);
+	x = atoi(argv[1]);
+	y = atoi(argv[2]);
 	
-	s = a+b;
+	soma = x+y;
 
-	   printf ("\t\tSoma: %i\n", s);
+	   printf ("\t\tSoma: %i\n", soma);
 
 
 }
